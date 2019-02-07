@@ -136,3 +136,7 @@ SELECT color, avg(price) AS price FROM diamonds GROUP BY color ORDER BY COLOR
 
 -- COMMAND ----------
 
+-- MAGIC %py display(dbutils.fs.ls("dbfs:/databricks/init/output/QS/2019-02-07_14-31-18/"))
+
+-- COMMAND ----------
+
